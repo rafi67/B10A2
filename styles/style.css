@@ -3,18 +3,19 @@
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
+    font-family: 'Inter';
 }
 
 header {
     background-image: linear-gradient(rgba(17, 17, 17, 1),
-    rgba(33, 33, 33, 1), rgba(17, 17, 17, 1));
+    rgba(33, 33, 33, 9), rgba(17, 17, 17, 1));
     height: 715px;
 }
 
 nav {
     width: 80%;
-    height: 15%;
+    height: 20%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -34,9 +35,8 @@ ul {
 
 .nav-title {
     color:rgba(230, 83, 60, 1);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: italic;
-    font-family: 'Inter';
     font-weight: 700;
 }
 
@@ -51,6 +51,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    font-size: 1.124rem;
 }
 
 #list-home {
