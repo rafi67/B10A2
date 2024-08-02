@@ -263,3 +263,35 @@ span {
     font-size: 0.875rem;
     font-weight: 400;
 }
+
+/* run */
+.run-section {
+    padding: 30px 32px 30px 32px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+
+.run-section img {
+    width: 34.5%;
+    border-radius: 18px;
+}
+
+.run-content {
+    width: 42%;
+    text-align: left;
+}
+
+.run-content h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0 34px 0;
+}
