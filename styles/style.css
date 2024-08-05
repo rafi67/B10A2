@@ -37,7 +37,7 @@ ul {
 }
 
 .nav-title {
-    color:rgba(230, 83, 60, 1);
+    color: rgba(230, 83, 60, 1);
     font-size: 2.25rem;
     font-style: italic;
     font-weight: 700;
@@ -222,14 +222,14 @@ span {
 
 /* habit section */
 
-.habit-section > h3 {
+.habit-section>h3 {
     color: white;
     font-size: 3rem;
     font-weight: 900;
     margin: 0 auto;
 }
 
-.habit-section > p {
+.habit-section>p {
     width: 64%;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
@@ -291,7 +291,138 @@ span {
 
 .run-content p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     margin: 14px 0 34px 0;
+}
+
+/* training section */
+.training-section h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.training-section>p {
+    width: 60%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 14px 0 58px 0;
+}
+
+.training-image-container,
+.row-1,
+.row-2,
+img {
+    width: 100%;
+}
+
+.training-image-container img {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+}
+
+.training-image-container p {
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: absolute;
+    z-index: 4;
+}
+
+.training-image-container .row-1 .column-2 {
+    position: relative;
+}
+
+.training-image-container .row-1 .column-1 p {
+    width: 12%;
+    transform: translate(1%, 1042%);
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-1 .column-1 {
+    background-image: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.training-image-container .row-1 .column-2 {
+    background: linear-gradient(rgba(255, 0, 0, .3), rgba(255, 0, 0, .3)), url('../images/exercise2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242.5px;
+}
+
+.training-image-container .row-1 .column-2 p {
+    width: 39%;
+    transform: translate(22%, 140%);
+}
+
+.training-image-container .row-1 .column-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-1 .column-3 p {
+    width: 12%;
+    transform: translate(12%, 1098%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-1 {
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr 1.2fr;
+}
+
+.training-image-container .row-2 {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+}
+
+.training-image-container .row-2 .column-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-2 .column-1 p {
+    width: 12%;
+    transform: translate(124%, 124%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-2 .column-2 {
+    background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-2 .column-2 p {
+    width: 14%;
+    transform: translate(27%, 838%);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.training-image-container .row-2 .column-3 {
+    height: 216.69px;
+    background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.training-image-container .row-2 .column-3 p {
+    width: 14%;
+    transform: translate(20%, 873%);
+    font-size: 0.875rem;
+    font-weight: 500;
 }
