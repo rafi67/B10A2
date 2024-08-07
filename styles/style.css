@@ -313,19 +313,6 @@ span {
     margin: 14px 0 58px 0;
 }
 
-.training-image-container,
-.row-1,
-.row-2,
-img {
-    width: 100%;
-}
-
-.training-image-container img {
-    position: relative;
-    height: 100%;
-    z-index: 2;
-}
-
 .training-image-container p {
     color: white;
     font-size: 0.875rem;
@@ -425,4 +412,132 @@ img {
     transform: translate(20%, 873%);
     font-size: 0.875rem;
     font-weight: 500;
+}
+
+/* bmi section */
+.bmi-section {
+    width: 100%;
+}
+.bmi-section > h1 {
+    width: 44%;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.bmi-section  p {
+    width: 44%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 14px auto 88px auto;
+    text-align: left;
+}
+
+.bmi-container {
+    width: 100%;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bmi-chart h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 52px;
+}
+
+th {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+th, td {
+    padding: 15px 15px 15px 18px;
+}
+
+.bmi-chart table, th, td {
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.calculate-bmi {
+    width: 40%;
+    text-align: left;
+}
+
+.calculate-bmi h3 {
+    color: white;
+    font-size: 1.75rem;
+    font-size: 900;
+}
+
+.calculate-bmi p {
+    width: 100%;
+    margin: 14px 0 34px 0;
+}
+
+input, select {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 13px 40px 13px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+select::placeholder, input::placeholder, option, select {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.height {
+    grid-area: height;
+}
+
+.weight {
+    grid-area: weight;
+}
+
+.age {
+    grid-area: age;
+}
+
+.sex {
+    grid-area: sex;
+}
+
+.factor {
+    grid-area: factor;
+}
+
+.calculate-bmi button {
+    grid-area: btn;
+    margin-top: 22px;
+}
+
+.calculate-bmi form {
+    display: grid;
+    grid-template-areas: 'height height weight weight'
+    'age age sex sex'
+    'factor factor factor factor'
+    'btn . . .';
+    gap: 12px;
 }
