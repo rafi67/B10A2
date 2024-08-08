@@ -616,3 +616,71 @@ select::placeholder, input::placeholder, option, select {
 .trainer-6 {
     background-image: url('../images/trainer6.png');
 }
+
+/* footer section */
+footer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.footer-section .column-1 {
+    width: 42%;
+}
+
+.footer-section .column-1 h1 {
+    color: rgba(230, 83, 60, 1);
+    font-size: 4.375rem;
+    font-style: italic;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: left;
+}
+
+.footer-section .column-1 p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    text-align: left;
+}
+
+.footer-section h4 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.footer-section .column-2 p, .footer-section .column-3 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+}
+
+hr {
+    width: 70%;
+    margin: 79px auto 36px auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+}
