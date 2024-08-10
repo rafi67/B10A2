@@ -481,6 +481,7 @@ th, td {
 
 .calculate-bmi {
     width: 40%;
+    transform: translateY(4%);
     text-align: left;
 }
 
@@ -558,7 +559,6 @@ select::placeholder, input::placeholder, option, select {
 }
 
 .team-container {
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     display: grid;
@@ -683,4 +683,51 @@ hr {
     font-weight: 400;
     text-align: center;
     margin-bottom: 35px;
+}
+
+/* buy supplement section */
+.supplement-section {
+    width: calc(70% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.supplement-content {
+    width: 40%;
+}
+
+.supplement-content h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.supplement-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.buy-supplement {
+    width: 50%;
+}
+
+.buy-supplement img {
+    position: relative;
+}
+
+.buy-supplement button {
+    width: 185px;
+    position: absolute;
+    transform: translate(-178%, 525%);
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
 }
