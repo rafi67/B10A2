@@ -866,4 +866,31 @@ hr {
     .habit-section .card-container .card {
         width: 90%;
     }
+
+    .run-section {
+        width: calc(80% - 32px);
+        flex-direction: column;
+        row-gap: 31px;
+    }
+    .run-content {
+        width: 100%;
+    }
+
+    .run-section h3 {
+        width: 89%;
+        font-size: 2rem;
+    }
+    
+    .run-content p {
+        width: 100%;
+    }
+
+    .run-content button {
+        width: 100%;
+    }
+
+    .run-section img {
+        width: 100%;
+    }
+
 }
