@@ -843,4 +843,27 @@ hr {
     .banner-container .image-container .glass-2-content .glass-section-description {
         font-size: 0.75rem;
     }
+
+    .habit-section {
+        margin-top: 10px;
+    }
+
+    .habit-section>h3 {
+        font-size: 1.41rem;
+    }
+
+    .habit-section>p {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+
+    .habit-section .card-container {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+
+    .habit-section .card-container .card {
+        width: 90%;
+    }
 }
