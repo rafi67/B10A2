@@ -385,6 +385,7 @@ span {
 }
 
 .training-image-container .row-2 .column-1 {
+    height: 216.69px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -411,7 +412,6 @@ span {
 }
 
 .training-image-container .row-2 .column-3 {
-    height: 216.69px;
     background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -893,4 +893,62 @@ hr {
         width: 100%;
     }
 
+    .training-section {
+        width: 90%;
+    }
+
+    .training-section h3 {
+        font-size: 2rem;
+    }
+
+    .training-section > p {
+        width: 100%;
+    }
+
+    .training-image-container .row-1 .column-3, .training-image-container .row-2 .column-3 {
+        display: none;
+    }
+
+    .training-image-container .row-1 {
+        grid-template-columns: 1.6fr 1.4fr;
+    }
+
+    .training-image-container .row-2 {
+        grid-template-columns: 1.2fr 1.4fr;
+    }
+
+    .training-image-container .row-1 .column-1 p {
+        color: white;
+    }
+
+    .training-image-container .row-1 .column-1 p, .training-image-container .row-1 .column-2 p, .training-image-container .row-2 .column-1 p, .training-image-container .row-2 .column-2 p {
+        width: 75%;
+        font-size: 0.5rem;
+    }
+
+    .training-image-container .row-1 .column-2 {
+        height: 139px;
+        background-size: cover;
+        background-position: top right;
+    }
+
+    .training-image-container .row-2 .column-1 {
+        height: 139px;
+    }
+
+    .training-image-container .row-1 .column-1 p {
+        transform: translate(-21%, 1042%);
+    }
+
+    .training-image-container .row-1 .column-2 p {
+        transform: translate(27%, 63%);
+    }
+
+    .training-image-container .row-2 .column-1 p {
+        transform: translate(-23%, 1213%);
+    }
+
+    .training-image-container .row-2 .column-2 p {
+        transform: translate(-23%, 1197%);
+    }
 }
