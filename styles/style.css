@@ -999,4 +999,27 @@ hr {
     form .row-2 .column-2 {
         width: 170%;
     }
+
+    .team-section {
+        width: 90%;
+        margin-top: 66px;
+    }
+
+    .team-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .team-section>p {
+        width: 100%;
+        margin: 14px 0 37px 0;
+    }
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    .team-container div h3 {
+        font-size: 1.2rem;
+        transform: translateY(967%);
+    }
 }
