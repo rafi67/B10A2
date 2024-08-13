@@ -1022,4 +1022,34 @@ hr {
         font-size: 1.2rem;
         transform: translateY(967%);
     }
+
+    .supplement-section {
+        width: calc(90% - 40px);
+        flex-direction: column;
+        margin-top: 66px;
+    }
+
+    .supplement-content {
+        width: 100%;
+    }
+
+    .supplement-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .buy-supplement {
+        width: 100%;
+        margin-top: 42px;
+        text-align: center;
+    }
+
+    .buy-supplement img {
+        width: 100%;
+    }
+
+    .buy-supplement button {
+        width: 143px;
+        transform: translate(-166%, 317%);
+        font-size: .9rem;
+    }
 }
