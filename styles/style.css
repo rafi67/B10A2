@@ -164,7 +164,7 @@ span {
     justify-content: space-between;
 }
 
-.banner-container .image-container > img {
+.banner-container .image-container>img {
     width: 349px;
     transform: translateX(94%);
 }
@@ -200,6 +200,7 @@ span {
 .banner-container .image-container .glass-2 .glass-2-content {
     width: 60%;
 }
+
 .banner-container .image-container .glass-2 .circle {
     width: 40px;
 }
@@ -544,7 +545,10 @@ select {
     row-gap: 12px;
 }
 
-form .row-1 .column-1, form .row-1 .column-2, form .row-2 .column-1, form .row-2 .column-2 {
+form .row-1 .column-1,
+form .row-1 .column-2,
+form .row-2 .column-1,
+form .row-2 .column-2 {
     width: calc(174% - 12px);
 }
 
@@ -552,7 +556,8 @@ form .row-1 .column-1, form .row-1 .column-2, form .row-2 .column-1, form .row-2
     width: calc(55% - 12px);
 } */
 
-form .row-1, form .row-2 {
+form .row-1,
+form .row-2 {
     display: flex;
     column-gap: 12px;
 }
@@ -560,6 +565,7 @@ form .row-1, form .row-2 {
 form .row-3 .column-1 {
     width: 100%;
 }
+
 /* team section */
 .team-section h1 {
     color: white;
@@ -736,6 +742,7 @@ hr {
 
 .buy-supplement {
     width: 50%;
+    position: relative;
 }
 
 .buy-supplement img {
@@ -834,7 +841,7 @@ hr {
     .banner-container .image-container .glass-2-content {
         width: 44%;
     }
-    
+
     .banner-container .image-container .glass-2-content .glass-section-title {
         font-size: 1.13375rem;
     }
@@ -871,6 +878,7 @@ hr {
         flex-direction: column;
         row-gap: 31px;
     }
+
     .run-content {
         width: 100%;
     }
@@ -879,7 +887,7 @@ hr {
         width: 89%;
         font-size: 2rem;
     }
-    
+
     .run-content p {
         width: 100%;
     }
@@ -901,11 +909,12 @@ hr {
         font-size: 2rem;
     }
 
-    .training-section > p {
+    .training-section>p {
         width: 100%;
     }
 
-    .training-image-container .row-1 .column-3, .training-image-container .row-2 .column-3 {
+    .training-image-container .row-1 .column-3,
+    .training-image-container .row-2 .column-3 {
         display: none;
     }
 
@@ -921,7 +930,10 @@ hr {
         color: white;
     }
 
-    .training-image-container .row-1 .column-1 p, .training-image-container .row-1 .column-2 p, .training-image-container .row-2 .column-1 p, .training-image-container .row-2 .column-2 p {
+    .training-image-container .row-1 .column-1 p,
+    .training-image-container .row-1 .column-2 p,
+    .training-image-container .row-2 .column-1 p,
+    .training-image-container .row-2 .column-2 p {
         width: 75%;
         font-size: 0.5rem;
     }
@@ -960,12 +972,12 @@ hr {
         margin-top: 22px;
     }
 
-    .bmi-section > h1 {
+    .bmi-section>h1 {
         width: 90%;
         font-size: 2rem;
     }
 
-    .bmi-section > p {
+    .bmi-section>p {
         width: 90%;
         margin: 14px auto 32px auto;
     }
@@ -1049,7 +1061,9 @@ hr {
 
     .buy-supplement button {
         width: 143px;
-        transform: translate(-166%, 317%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-size: .9rem;
     }
 
