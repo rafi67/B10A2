@@ -122,8 +122,8 @@
         <!-- bmi calculator section -->
         <section class="container bmi-section">
             <h1>BMI Calculator</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
-            </p>
+            <p>A BMI calculator helps determine if a person's weight is healthy by calculating the Body Mass Index using
+                their height and weight.</p>
             <div class="bmi-container">
                 <div class="bmi-chart">
                     <h3>BMI Calculator Chart</h3>
@@ -157,15 +157,21 @@
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access
                         to a gym. </p>
                     <form>
-                        <input type="text" class="height" placeholder="Height/cm">
-                        <input type="text" class="weight" placeholder="Weight/kg">
-                        <input type="text" class="age" placeholder="Age">
-                        <select class="sex">
-                            <option value="Sex">Sex</option>
-                        </select>
-                        <select class="factor">
-                            <option value="">Select an activity factor</option>
-                        </select>
+                        <div class="row-1">
+                            <input type="text" class="column-1" placeholder="Height/cm">
+                            <input type="text" class="column-2" placeholder="Weight/kg">
+                        </div>
+                        <div class="row-2">
+                            <input type="text" class="column-1" placeholder="Age">
+                            <select class="column-2">
+                                <option value="Sex">Sex</option>
+                            </select>
+                        </div>
+                        <div class="row-3">
+                            <select class="column-1">
+                                <option value="">Select an activity factor</option>
+                            </select>
+                        </div>
                         <button class="btn-primary">Calculate</button>
                     </form>
                 </div>

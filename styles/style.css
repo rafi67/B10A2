@@ -495,14 +495,14 @@ td {
 
 .calculate-bmi {
     width: 40%;
-    transform: translateY(4%);
+    transform: translateY(6%);
     text-align: left;
 }
 
 .calculate-bmi h3 {
     color: white;
     font-size: 1.75rem;
-    font-size: 900;
+    font-weight: 900;
 }
 
 .calculate-bmi p {
@@ -510,10 +510,16 @@ td {
     margin: 14px 0 34px 0;
 }
 
-input,
-select {
+input {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 13px 40px 13px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+select {
+    padding: 13px 50px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
 }
@@ -527,40 +533,33 @@ select {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.height {
-    grid-area: height;
-}
-
-.weight {
-    grid-area: weight;
-}
-
-.age {
-    grid-area: age;
-}
-
-.sex {
-    grid-area: sex;
-}
-
-.factor {
-    grid-area: factor;
-}
-
 .calculate-bmi button {
     grid-area: btn;
-    margin-top: 22px;
+    margin-top: 34px;
 }
 
 .calculate-bmi form {
-    display: grid;
-    grid-template-areas: 'height height weight weight'
-        'age age sex sex'
-        'factor factor factor factor'
-        'btn . . .';
-    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
 }
 
+form .row-1 .column-1, form .row-1 .column-2, form .row-2 .column-1, form .row-2 .column-2 {
+    width: calc(174% - 12px);
+}
+
+/* form .row-2 .column-2 {
+    width: calc(55% - 12px);
+} */
+
+form .row-1, form .row-2 {
+    display: flex;
+    column-gap: 12px;
+}
+
+form .row-3 .column-1 {
+    width: 100%;
+}
 /* team section */
 .team-section h1 {
     color: white;
@@ -895,6 +894,7 @@ hr {
 
     .training-section {
         width: 90%;
+        margin-top: 66px;
     }
 
     .training-section h3 {
@@ -950,5 +950,53 @@ hr {
 
     .training-image-container .row-2 .column-2 p {
         transform: translate(-23%, 1197%);
+    }
+
+    .bmi-container {
+        height: auto;
+    }
+
+    .bmi-section {
+        margin-top: 22px;
+    }
+
+    .bmi-section > h1 {
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .bmi-section > p {
+        width: 90%;
+        margin: 14px auto 32px auto;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+    }
+
+    .bmi-chart h3 {
+        font-size: 1rem;
+        margin: 34px 0 0 0;
+    }
+
+    table {
+        margin-top: 23px;
+    }
+
+    .calculate-bmi {
+        width: 90%;
+        margin: 42px 0;
+    }
+
+    .calculate-bmi h3 {
+        font-size: 1rem;
+    }
+
+    .calculate-bmi p {
+        margin: 14px 0 34px 0;
+    }
+
+    form .row-2 .column-2 {
+        width: 170%;
     }
 }
