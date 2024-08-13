@@ -678,7 +678,7 @@ footer {
     color: white;
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 19px;
+    margin-bottom: 39px;
 }
 
 .footer-section .column-2 p,
@@ -1051,5 +1051,23 @@ hr {
         width: 143px;
         transform: translate(-166%, 317%);
         font-size: .9rem;
+    }
+
+    .footer-section {
+        width: 90%;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .footer-section .column-1 {
+        width: 100%;
+    }
+
+    .footer-section h4 {
+        text-align: left;
+    }
+
+    hr {
+        width: 90%;
     }
 }
