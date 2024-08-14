@@ -813,7 +813,7 @@ hr {
 
     .banner-container .image-container .glass-1 {
         width: 33%;
-        height: 19.5%;
+        height: 74px;
         transform: translate(106%, 46%);
         padding: 13px 16px 0 16px;
     }
@@ -830,7 +830,7 @@ hr {
 
     .banner-container .image-container .glass-2 {
         width: 44%;
-        height: 23%;
+        height: 72.58px;
         transform: translate(5%, 295%);
     }
 
