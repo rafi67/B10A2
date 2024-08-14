@@ -746,13 +746,16 @@ hr {
 }
 
 .buy-supplement img {
+    width: 100%;
     position: relative;
 }
 
 .buy-supplement button {
-    width: 185px;
+    width: 36.154%;
     position: absolute;
-    transform: translate(-178%, 525%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.07);
     border-radius: 16px;
@@ -1064,9 +1067,6 @@ hr {
 
     .buy-supplement button {
         width: 143px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         font-size: .9rem;
     }
 
