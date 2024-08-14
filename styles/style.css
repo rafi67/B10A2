@@ -949,7 +949,8 @@ hr {
     }
 
     .training-image-container .row-1 .column-1 p {
-        transform: translate(-21%, 1042%);
+        width: 40%;
+        transform: translate(6%, 1042%);
     }
 
     .training-image-container .row-1 .column-2 p {
@@ -957,11 +958,13 @@ hr {
     }
 
     .training-image-container .row-2 .column-1 p {
-        transform: translate(-23%, 1213%);
+        width: 35%;
+        transform: translate(11%, 1213%);
     }
 
     .training-image-container .row-2 .column-2 p {
-        transform: translate(-23%, 1197%);
+        width: 40%;    
+        transform: translate(13%, 1197%);
     }
 
     .bmi-container {
