@@ -1033,6 +1033,10 @@ hr {
         font-size: 1.8rem;
     }
 
+    .team-container .trainer-1, .team-container .trainer-4 {
+        display: none;
+    }
+
     .team-section>p {
         width: 100%;
         margin: 14px 0 37px 0;
