@@ -160,6 +160,7 @@ span {
 }
 
 .banner-container .btn-container {
+    width: 85%;
     display: flex;
     justify-content: space-between;
 }
@@ -796,6 +797,11 @@ hr {
     .banner-container .banner-content .banner-description {
         width: 99%;
     }
+
+    
+.banner-container .btn-container {
+    width: 100%;
+}
 
     .banner-container button {
         width: 169px;
