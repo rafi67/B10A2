@@ -536,37 +536,26 @@ select {
 }
 
 .calculate-bmi button {
-    grid-area: btn;
     margin-top: 34px;
 }
 
 .calculate-bmi form {
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
+    display: grid;
+    grid-template-columns: minmax(0 , 1fr) minmax(0, 1fr);
+    gap: 12px;
 }
 
-form .row-1 .column-1,
-form .row-1 .column-2,
-form .row-2 .column-1,
-form .row-2 .column-2 {
-    width: calc(174% - 12px);
+.calculate-bmi form .height, .age {
+    grid-column: 1 / span 1;
 }
 
-/* form .row-2 .column-2 {
-    width: calc(55% - 12px);
-} */
-
-form .row-1,
-form .row-2 {
-    display: flex;
-    column-gap: 12px;
+.calculate-bmi form .gender, .weight {
+    grid-column: 2 / span 1;
 }
 
-form .row-3 .column-1 {
-    width: 100%;
+.calculate-bmi form .factor {
+    grid-column: span 2;
 }
-
 /* team section */
 .team-section h1 {
     color: white;
