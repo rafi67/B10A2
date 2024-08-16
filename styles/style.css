@@ -1254,6 +1254,10 @@ hr {
         width: 55.154%;
     }
 
+    .footer-section {
+        width: 95%;
+    }
+
     .footer-section .column-1 {
         grid-area: column-1;
     }
@@ -1286,6 +1290,7 @@ hr {
     }
 
     hr {
+        width: 95%;
         margin: 71px 0 41px 0;
     }
 
