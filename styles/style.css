@@ -1253,4 +1253,43 @@ hr {
     .buy-supplement button {
         width: 55.154%;
     }
+
+    .footer-section .column-1 {
+        grid-area: column-1;
+    }
+
+    .footer-section .column-2 {
+        grid-area: column-2;
+    }
+
+    .footer-section .column-3 {
+        grid-area: column-3;
+    }
+
+    .footer-section {
+        display: grid;
+        grid-template-areas: 
+        "column-1 column-1"
+        "column-2 column-3";
+        row-gap: 102px;
+        column-gap: 100px;
+    }
+
+    .footer-section .column-1 {
+        width: 100%;
+    }
+
+    .footer-section h4  {
+        width: 100%;
+        text-align: left;
+        margin-top: 39px;
+    }
+
+    hr {
+        margin: 71px 0 41px 0;
+    }
+
+    .footer-paragraph {
+        margin-bottom: 40px;
+    }
 }
