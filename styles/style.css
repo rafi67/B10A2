@@ -1160,4 +1160,50 @@ hr {
     .run-section img {
         width: 44%;
     }
+
+    .training-section {
+        width: 85%;
+    }
+    
+    .training-section>p {
+        width: 100%;
+    }
+
+    .training-image-container .row-2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1.5fr;
+    }
+
+    .training-image-container .row-1 .column-2 {
+        background-position: top right;
+    }
+
+    .training-image-container .row-1 .column-1 p {
+        width: 22%;
+        transform: translate(4%, 1042%);
+    }
+
+    .training-image-container .row-1 .column-2 p {
+        width: 70%;
+    }
+
+    .training-image-container .row-1 .column-3 p {
+        width: 18%;
+        transform: translate(12%, 1179%);
+    }
+
+    .training-image-container .row-2 .column-1 p {
+        width: 23%;
+        transform: translate(14%, 961%);
+    }
+
+    .training-image-container .row-2 .column-2 p {
+        width: 24%;
+        transform: translate(11%, 1004%);
+    }
+
+    .training-image-container .row-2 .column-3 p {
+        width: 19%;
+        transform: translate(14%, 460%);
+    }
 }
