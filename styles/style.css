@@ -1206,4 +1206,21 @@ hr {
         width: 19%;
         transform: translate(14%, 460%);
     }
+
+    .bmi-section>h1, .bmi-section p {
+        width: 85%;
+    }
+
+    .bmi-container {
+        width: calc(100% - 60px);
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 30px;
+    }
+
+    .calculate-bmi {
+        width: 100%;
+        margin: 63px 0 38px 0;
+    }
 }
