@@ -556,6 +556,7 @@ select {
 .calculate-bmi form .factor {
     grid-column: span 2;
 }
+
 /* team section */
 .team-section h1 {
     color: white;
@@ -1085,5 +1086,51 @@ hr {
 
     hr {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    nav {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    ul {
+        width: 55%;
+    }
+
+    .nav-list {
+        width: 23%;
+        font-size: 1rem;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 100px;
+    }
+
+    .banner-container .banner-content {
+        width: 81%;
+    }
+
+    .banner-container .banner-content .banner-title, span {
+        font-size: 4.875rem;
+    }
+
+    .banner-container .btn-container {
+        width: 90%;
+    }
+
+    .banner-container .image-container>img {
+        transform: translateX(43%);
+    }
+
+    .banner-container .image-container .glass-1 {
+        transform: translate(176%, 53%);
+    }
+
+    .banner-container .image-container .glass-2 {
+        transform: translate(47%, 364%);
     }
 }
