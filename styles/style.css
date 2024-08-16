@@ -244,6 +244,7 @@ span {
 .habit-section>p {
     width: 64%;
     color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
     font-weight: 400;
     margin: 14px auto 58px auto;
     text-align: center;
@@ -1089,7 +1090,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 1024px) {
     nav {
         width: 85%;
         margin: 0 auto;
@@ -1132,5 +1133,19 @@ hr {
 
     .banner-container .image-container .glass-2 {
         transform: translate(47%, 364%);
+    }
+
+    .habit-section .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .card-container .card {
+        width: 100%;
+    }
+
+    .card h4 {
+        font-size: 1.125rem;
     }
 }
