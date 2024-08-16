@@ -1124,15 +1124,15 @@ hr {
     }
 
     .banner-container .image-container>img {
-        transform: translateX(43%);
+        transform: translateX(30%);
     }
 
     .banner-container .image-container .glass-1 {
-        transform: translate(176%, 53%);
+        transform: translate(151%, 53%);
     }
 
     .banner-container .image-container .glass-2 {
-        transform: translate(47%, 364%);
+        transform: translate(26%, 364%);
     }
 
     .habit-section .card-container {
@@ -1147,5 +1147,17 @@ hr {
 
     .card h4 {
         font-size: 1.125rem;
+    }
+
+    .run-section {
+        width: 85%;
+    }
+
+    .run-content h3 {
+        font-size: 2.25rem;
+    }
+
+    .run-section img {
+        width: 44%;
     }
 }
