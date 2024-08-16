@@ -1223,4 +1223,22 @@ hr {
         width: 100%;
         margin: 63px 0 38px 0;
     }
+
+    .team-section {
+        width: 95%;
+    }
+
+    .team-section>p {
+        width: 65%;
+    }
+
+    .team-container div h3 {
+        width: 100%;
+        font-size: 1rem;
+        transform: translateY(1160%);
+    }
+
+    .trainer-4 {
+        background-position: top center;
+    }
 }
