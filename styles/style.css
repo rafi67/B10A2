@@ -1241,4 +1241,16 @@ hr {
     .trainer-4 {
         background-position: top center;
     }
+
+    .supplement-section {
+        width: 90%;
+    }
+
+    .supplement-content {
+        width: 70%;
+    }
+
+    .buy-supplement button {
+        width: 55.154%;
+    }
 }
